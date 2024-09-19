@@ -4120,6 +4120,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@segment/analytics-consent-wrapper-trustarc@workspace:packages/consent/consent-wrapper-trustarc":
+  version: 0.0.0-use.local
+  resolution: "@segment/analytics-consent-wrapper-trustarc@workspace:packages/consent/consent-wrapper-trustarc"
+  dependencies:
+    "@internal/config-webpack": "workspace:^"
+    "@internal/test-helpers": "workspace:^"
+    "@segment/analytics-consent-tools": 2.0.1
+    "@types/jsdom": ^16.2.14
+    jsdom: ^19.0.0
+    tslib: ^2.4.1
+  peerDependencies:
+    "@segment/analytics-next": ">=1.67.0"
+  peerDependenciesMeta:
+    "@segment/analytics-next":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@segment/analytics-core@workspace:*, @segment/analytics-core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@segment/analytics-core@workspace:packages/core"
